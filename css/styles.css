@@ -150,15 +150,19 @@ header {
     margin-left: auto;
 }
 
-.email {
+.email, .phone {
     letter-spacing: 0.02em;
     color: var(--p-font-color);
 }
 
 .email:hover,
-.email:focus {
+.email:focus,
+.phone:hover,
+.phone:focus {
     color:var(--filter-btn-bg-active-color);
 }
+
+
 
 .container {
     /* width: 1158px; */
@@ -1109,6 +1113,17 @@ img {
         display:flex;
         flex-direction:column-reverse;
         margin-bottom: 0;
+        align-items:flex-start;
+      }
+
+      .menu-container.is-open .email.link {
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 1.2em;
+      }
+
+      .menu-container.is-open .phone.link {
+        font-size: calc(42px + (60 - 42) * (100vw - 768px) / (1440 - 768));
       }
 
     .header-top {
