@@ -191,12 +191,33 @@ header {
 
 
 .header.container {
-    display: flex;
+    display: block;
+    padding-left: 16px;
+    padding-right: 16px;
+    margin-right:auto;
+    margin-left: auto;
 }
 .nav-items {
     display: flex;
     align-items: center;
 }
+
+.menu-button {
+    display: -webkit-inline-box;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+    margin: 0;
+    padding: 0;
+    border: none;
+    background-color: blue;
+    cursor: pointer;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .menu-button {
+      display: none;
+    }
+  }
 
 
 
