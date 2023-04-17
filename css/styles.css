@@ -1312,7 +1312,7 @@ img {
 
   }
   
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: 768px) and (max-width:1200px) {
     .container {
       width: 768px;
     }
@@ -1364,8 +1364,6 @@ img {
         padding: 0;
     }
 
-
-
     .menu-button {
         display: none;
       }
@@ -1377,9 +1375,26 @@ img {
         letter-spacing: 0.02em;
         color:#FFFFFF;
         width: 496px;
-        margin-bottom: 48px;
+        margin-bottom: 36px;
     }
+
+    /* HERO TABLET */
+
+    .top-section {
+        height: 436px;
+        padding-top: 112px;
+        padding-bottom: 112px;
+    }
+
+    /* .top-section .container {
+        margin:0;
+        padding: 0;
+    } */
   }
+
+
+
+
   
   @media screen and (min-width: 1200px) {
     .container {
