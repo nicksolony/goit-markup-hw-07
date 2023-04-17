@@ -51,6 +51,7 @@ h1,h2,h3,h4,h5,h6,p {
 /* INDEX.HTML styling */
 
 /* HEADER */
+
 .menu-item {
     font-weight: 500;
     font-size:16px;
@@ -172,6 +173,7 @@ header {
     padding-right: 16px;
     margin-right:auto;
     margin-left: auto;
+    position:relative;
 }
 .nav-items {
     display: flex;
@@ -1017,12 +1019,32 @@ img {
  @media screen and (max-width: 767px) {
     
     /* HEADER MOBILE*/
-    .menu-container {
-      display: none;
-    }
 
     .menu-button .close-menu {
         display:none;
+    }
+
+    .menu-button.is-open {
+        position: absolute;
+        top: 24px;
+        left: calc(100% - 24px);
+        z-index:2;
+        padding: 0;   
+        border-radius:50%;
+        width: 24px;
+        height: 24px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: transparent;
+        border: 1px solid var(--border-color);
+        cursor: pointer;
+        color: var(--heading-color-2);
+    }
+
+    .menu-button.is-open svg{
+        width: 8px;
+        height: 8px;
     }
 
     .menu-button.is-open .close-menu {
@@ -1036,12 +1058,20 @@ img {
       .menu-container {
         display: none;
         position: absolute;
-        top: 100%;
+        top: 0;
         left: 0;
-        width: 100%;
+        width: 100vw;
+        height:100vh;
       }
       .menu-container.is-open {
         display: block;
+        background-color: #ffffff;
+      }
+
+      .menu-button.is-open .menu-button {
+        position: absolute;
+        top: 0;
+        right: 0;
       }
 
     .header-top {
