@@ -200,6 +200,8 @@ header {
 .nav-items {
     display: flex;
     align-items: center;
+    justify-content: space-between;
+    height: 70px;
 }
 
 .menu-button {
@@ -213,12 +215,18 @@ header {
     cursor: pointer;
   }
   
+  
   @media screen and (min-width: 768px) {
     .menu-button {
       display: none;
     }
   }
 
+  @media screen and (max-width: 428px) {
+    .menu-container {
+      display: none;
+    }
+  }
 
 
 /* first section */
