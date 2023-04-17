@@ -1070,6 +1070,31 @@ img {
         padding: 80px 35px 40px 40px;
       }
 
+      .menu-container.is-open .nav-item {
+        margin-right: 0;
+        margin-bottom: 40px;
+      }
+
+      .menu-container.is-open .nav-item .link {
+        padding: 0;
+        font-size: 36px;
+        font-weight:700;
+        line-height: 1.111111111;
+
+      }
+
+      .menu-container.is-open .nav-item .current::after {
+        display: none;
+      }
+
+
+      .menu-container.is-open .nav-items {
+        display: block;
+        height: auto;
+        margin-bottom: 284px;
+      }
+
+
       .menu-button.is-open .menu-button {
         position: absolute;
         top: 0;
