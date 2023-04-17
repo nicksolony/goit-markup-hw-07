@@ -1080,10 +1080,26 @@ img {
         line-height: 1.111111111;
     }
 
-    /* SERVICES SECTION */
+    /* SERVICES SECTION MOBILE */
 
     .services.section {
         display:none;
+    }
+
+    /* TEAM SECTION MOBILE */
+    .team.section {
+        padding: 96px 82px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .team.section .container {
+        padding: 0;
+        width: 100%;
+    }
+
+    .team.section .list{
+        display: block;
     }
 
   }
