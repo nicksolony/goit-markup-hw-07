@@ -1169,6 +1169,14 @@ img {
         width: 100%;
     }
 
+    /* MODAL MOBILE */
+
+    .modal {
+        top:96px;
+        transform:translate(-50%) scale(1);
+        padding-left: 16px;
+        padding-right: 16px;
+    }
 
   }
 
