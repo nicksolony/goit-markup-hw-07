@@ -164,21 +164,36 @@ header {
     color:var(--filter-btn-bg-active-color);
 }
 
-/* .container {
-    width: 1158px;
+.container {
+    /* width: 1158px; */
     margin: 0 auto;
     padding: 0 15px;
-} */
+}
 
 @media screen and (min-width: 428px) {
     .container {
       width: 428px;
     }
+
   }
   
   @media screen and (min-width: 768px) {
     .container {
       width: 768px;
+    }
+
+    .menu-button {
+        display: none;
+      }
+
+    .header-top {
+        font-size: 56px;
+        line-height: 1.07;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color:#FFFFFF;
+        width: 496px;
+        margin-bottom: 48px;
     }
   }
   
@@ -215,28 +230,8 @@ header {
     cursor: pointer;
   }
   
-  
-  @media screen and (min-width: 768px) {
-    .menu-button {
-      display: none;
-    }
-  }
 
-  @media screen and (max-width: 428px) {
-    .menu-container {
-      display: none;
-    }
-  }
-
-
-/* first section */
-/* h1 tag */
-
-.section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
-.top-section {
+  .top-section {
     background-color: var(--heading-color-2);
     align-items: center;
     padding-top: 188px;
@@ -250,16 +245,46 @@ header {
     /* min-width: 1158px; */
     max-width: 1440px;
 }
+  
 
-.header-top {
-    font-size: 56px;
-    line-height: 1.07;
-    text-align: center;
-    letter-spacing: 0.02em;
-    color:#FFFFFF;
-    width: 496px;
-    margin-bottom: 48px;
-}
+
+  @media screen and (max-width: 767px) {
+    
+    .menu-container {
+      display: none;
+    }
+
+    .header-top {
+        width: 320px;
+        font-size: 36px;
+        line-height: 1.111111111;
+        text-align: center;
+        letter-spacing: 0.02em;
+        color:#FFFFFF;
+        margin-bottom: 72px;
+        /* padding-left: 54px;
+        padding-right: 54px; */
+    
+    }
+
+    .top-section {
+        padding-top: 112px;
+        padding-bottom: 112px;
+
+    }
+
+  }
+
+
+/* first section */
+/* h1 tag */
+
+/* .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+} */
+
+
 
 /* button */
 .order-button {
