@@ -425,16 +425,6 @@ header {
 .customers .list {
     display: flex;
 }
-.header-subject {
-    font-size: 36px;
-    line-height: 1.11;
-    color: var(--heading-color-2);
-    letter-spacing: 0.02em;
-    text-align: center;
-    text-transform: capitalize;
-    margin-bottom: 72px;
-
-}
 
 .customers-item {
     width: 168px;
@@ -1101,6 +1091,26 @@ img {
     .team.section .list{
         display: block;
     }
+
+    .team.section .team-member {
+        margin-right: auto;
+        margin-left: auto;
+        width: 100%;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .team-member:not(:last-child) {
+        margin-bottom: 72px;
+    }
+
+    .team.section .team-member-links {
+        display: flex;
+        width: 100%;
+    }
+
+
 
   }
 
