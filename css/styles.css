@@ -187,10 +187,9 @@ header {
     margin: 0;
     padding: 0;
     border: none;
-    background-color: blue;
+    background-color: transparent;
     cursor: pointer;
-  }
-  
+  }  
 
   .top-section {
     background-color: var(--heading-color-2);
