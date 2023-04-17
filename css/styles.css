@@ -1021,6 +1021,29 @@ img {
       display: none;
     }
 
+    .menu-button .close-menu {
+        display:none;
+    }
+
+    .menu-button.is-open .close-menu {
+        display: block;
+      }
+      
+      .menu-button.is-open .open-menu {
+        display: none;
+      }
+
+      .menu-container {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+      }
+      .menu-container.is-open {
+        display: block;
+      }
+
     .header-top {
         width: 320px;
         font-size: 36px;
