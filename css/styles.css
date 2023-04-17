@@ -1101,6 +1101,16 @@ img {
         right: 0;
       }
 
+      .menu-container.is-open .contact {
+        margin-bottom: 48px;
+      }
+
+      .menu-container.is-open .contact .nav-items {
+        display:flex;
+        flex-direction:column-reverse;
+        margin-bottom: 0;
+      }
+
     .header-top {
         width: 320px;
         font-size: 36px;
