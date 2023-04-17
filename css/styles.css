@@ -1099,6 +1099,26 @@ img {
       }
 
 
+      .menu-container.is-open .contact .nav-item:not(:last-child) {
+        margin-bottom: 0;
+      }
+
+      .menu-container.is-open .social-media {
+        margin: 0;
+      }
+
+      .menu-container.is-open .social-header {
+        display: none;
+      }
+
+      .menu-container.is-open .social-media .social-media-links {
+        justify-content: start;
+      }
+
+      .menu-container.is-open .social-media-links .social-media-link:not(:last-child) {
+        margin-right: 56px;
+      }
+
       .menu-button.is-open .menu-button {
         position: absolute;
         top: 0;
@@ -1112,8 +1132,9 @@ img {
       .menu-container.is-open .contact .nav-items {
         display:flex;
         flex-direction:column-reverse;
-        margin-bottom: 0;
+        margin-bottom: 48px;
         align-items:flex-start;
+
       }
 
       .menu-container.is-open .email.link {
