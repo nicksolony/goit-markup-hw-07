@@ -1027,6 +1027,7 @@ img {
 
  @media screen and (max-width: 767px) {
     
+    /* HEADER MOBILE*/
     .menu-container {
       display: none;
     }
@@ -1043,12 +1044,13 @@ img {
         padding-right: 54px; */
     
     }
-
+    /* TOP SECTION MOBILE */
     .top-section {
         padding-top: 112px;
         padding-bottom: 112px;
     }
 
+        /* VALUES SECTION  */
     .section .list.values,
     .values.section  {
         display: block;
@@ -1078,8 +1080,10 @@ img {
         line-height: 1.111111111;
     }
 
-    .value-item .desc {
-        t
+    /* SERVICES SECTION */
+
+    .services.section {
+        display:none;
     }
 
   }
