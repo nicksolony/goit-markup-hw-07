@@ -1110,7 +1110,30 @@ img {
         width: 100%;
     }
 
+    /* CUSTOMERS MOBILE SECTION */
 
+    .customers.section {
+        padding: 96px 16px;
+    }
+
+    .customers .container {
+        padding: 0;
+    }
+
+    .customers .header-subject {
+        margin-bottom:36px;
+    }
+
+    .customers .list {
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .customers .customers-item {
+        margin: 36px 16px;
+        width: calc(100%/ 2 - 2 * 16px);
+    }
 
   }
 
