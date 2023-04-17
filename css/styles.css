@@ -1554,8 +1554,16 @@ img {
     /* TOP SECTION DESKTOP */
 
     .top-section,
-    .values.section {
+    .values.section,
+    .services.section {
         margin-bottom: 120px;
+    }
+
+    /* TEAM DESKTOP SECTION */
+
+    .team.section {
+        padding-top: 120px;
+        padding-bottom: 120px;
     }
 
   }
