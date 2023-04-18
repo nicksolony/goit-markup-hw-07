@@ -1075,7 +1075,8 @@ img {
         display: none;
         position: absolute;
         top: 0;
-        left: 0;
+        /* left: calc(214px - 50vw); */
+        left:0;
         width: 100vw;
         height:100vh;
       }
