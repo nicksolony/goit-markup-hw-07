@@ -1035,6 +1035,11 @@ img {
     
     /* HEADER MOBILE*/
 
+    .logo {
+        margin-right:0;
+    }
+
+
     .menu-button .close-menu {
         display:none;
     }
