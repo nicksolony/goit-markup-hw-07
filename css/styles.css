@@ -1178,7 +1178,8 @@ img {
       }
 
       .menu-container.is-open .phone.link {
-        font-size: calc(42px + (60 - 42) * (100vw - 768px) / (1440 - 768));
+        font-size: 36px;
+        color: var(--heading-color-1);
       }
 
     .header-top {
