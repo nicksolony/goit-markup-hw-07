@@ -1153,7 +1153,8 @@ img {
       } */
 
       .menu-container.is-open .social-media-links .social-media-link:not(:last-child) {
-        margin-right: 56px;
+        /* margin-right: 56px; */
+        margin-right:calc(100% * 0.172307692);
       }
 
       .menu-button.is-open .menu-button {
