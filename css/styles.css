@@ -1094,7 +1094,7 @@ img {
         background-color: #ffffff;
         padding: 80px 35px 40px 40px;
         flex-direction:column;
-        
+
 
       }
 
@@ -1182,6 +1182,7 @@ img {
 
       .menu-container.is-open .phone.link {
         font-size: 36px;
+        font-size: 7.5vw;
         color: var(--heading-color-1);
       }
 
