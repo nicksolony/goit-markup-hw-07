@@ -1495,9 +1495,9 @@ img {
     }
 
     .team.section .container {
-        margin-left: auto;
-        margin-right: auto;
-        width: 100%;
+        /* margin-left: auto;
+        margin-right: auto; */
+        max-width: 582px;
     }
 
     .team.section .list {
@@ -1507,7 +1507,7 @@ img {
     }    
 
     .team-member {
-        width: calc((100% - 24px - 178px) /2 );
+        width: calc((100% - 24px ) /2 );
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -1539,8 +1539,8 @@ img {
     
     .customers.section .container,
     .footer-container {
-        width:552px;
-        padding: 0;
+        width:582px;
+        /* padding: 0; */
     }
     
     .customers-item {
