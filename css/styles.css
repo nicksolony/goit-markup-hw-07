@@ -1188,9 +1188,10 @@ img {
         display: block;
     }
 
-    .top-section,
+    /* .top-section, */
     .values.section {
-        margin-bottom:96px;
+        padding-bottom:96px;
+        padding-top:96px;
     }
 
     .value-item {
