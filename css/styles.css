@@ -1598,7 +1598,7 @@ img {
   
   @media screen and (min-width: 1200px) {
     .container {
-      max-width: 1158px;
+      width: 1158px;
     }
 
     /* DESKTOP HEADER */
@@ -1618,16 +1618,20 @@ img {
 
     /* TOP SECTION DESKTOP */
 
-    .top-section,
-    .values.section,
-    .services.section {
+    /* .top-section,
+     {
         margin-bottom: 120px;
     }
-
+ */
     /* TEAM DESKTOP SECTION */
 
+    .values.section,
     .team.section {
         padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+    .services.section {
         padding-bottom: 120px;
     }
 
