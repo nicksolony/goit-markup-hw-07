@@ -1041,6 +1041,19 @@ img {
         margin-right:0;
     }
 
+    .top-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url('../images/hero-mobile1x.jpg');
+    }
+
+    @media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .top-section {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url('../images/hero-mobile2x.jpg');
+  }
+}
+
 
     .menu-button .close-menu {
         display:none;
@@ -1455,6 +1468,18 @@ img {
         /* margin-bottom: 96px; */
     }
 
+    .top-section {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url('../images/hero-tablet1x.jpg');
+    }
+
+    @media (min-device-pixel-ratio: 2),
+  (-webkit-min-device-pixel-ratio: 2),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .top-section {
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7),rgba(46, 47, 66, 0.7)),url('../images/hero-tablet2x.jpg');
+  }
+}
 
     /* VALUES TABLET */
 
@@ -1598,7 +1623,7 @@ img {
   
   @media screen and (min-width: 1200px) {
     .container {
-      width: 1158px;
+      max-width: 1158px;
     }
 
     /* DESKTOP HEADER */
