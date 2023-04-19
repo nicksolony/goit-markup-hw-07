@@ -1324,6 +1324,15 @@ img {
         padding-right: 16px;
     }
 
+    .contact-form .check {
+        position:static;
+        flex-shrink: 0;
+    }
+
+    .contact-form .checkbox {
+        justify-content:normal;
+    }
+
   }
 
   /* @media screen and (min-width: 480px) {
