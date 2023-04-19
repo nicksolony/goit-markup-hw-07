@@ -165,7 +165,7 @@ header {
 
 
 .container {
-    /* width: 1158px; */
+    max-width: 426px;
     margin: 0 auto;
     padding: 0 15px;
 }
@@ -1305,12 +1305,12 @@ img {
 
   }
 
-  @media screen and (min-width: 480px) {
+  /* @media screen and (min-width: 480px) {
     .container {
       width: 428px;
     }
 
-  }
+  } */
   
 
   @media screen and (min-width: 768px) {
@@ -1333,7 +1333,7 @@ img {
 
   @media screen and (min-width: 768px) and (max-width:1199px) {
     .container {
-      width: 768px;
+      max-width: 766px;
     }
 
     /* TABLET HEADER */
@@ -1544,8 +1544,7 @@ img {
   
   @media screen and (min-width: 1200px) {
     .container {
-      width: 1128px;
-      padding: 0;
+      max-width: 1158px;
     }
 
     /* DESKTOP HEADER */
