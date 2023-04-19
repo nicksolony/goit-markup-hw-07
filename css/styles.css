@@ -1452,7 +1452,7 @@ img {
         height: 436px;
         padding-top: 112px;
         padding-bottom: 112px;
-        margin-bottom: 96px;
+        /* margin-bottom: 96px; */
     }
 
 
@@ -1460,7 +1460,8 @@ img {
 
     .values.section {
         display: block;
-        margin-bottom: 96px;
+        padding-top: 96px;
+        padding-bottom: 96px;
     }
 
 
