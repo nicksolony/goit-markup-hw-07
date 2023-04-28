@@ -1147,7 +1147,7 @@ img {
         display: block;
         height: auto;
         margin-bottom: auto;
-        text-align: center;
+        /* text-align: center; */
       }
 
 
@@ -1185,7 +1185,7 @@ img {
         display:flex;
         flex-direction:column-reverse;
         /* margin-bottom: 48px; */
-        /* align-items:flex-start; */
+        align-items:flex-start;
 
       }
 
@@ -1329,9 +1329,9 @@ img {
         text-align: center;
     }
 
-    .social-media-links {
+    /* .social-media-links {
         justify-content: center;
-    }
+    } */
 
     .value-item:not(:last-child),
     .team-member:not(:last-child),
