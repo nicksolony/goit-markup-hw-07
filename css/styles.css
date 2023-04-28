@@ -1673,3 +1673,15 @@ img {
         margin-right:calc(100% * 0.172307692);
       }
   }
+
+      @media screen and (max-width: 333px) {
+    .menu-container.is-open .phone.link {
+        font-size: 24px;
+        color: var(--heading-color-1);
+      }
+
+      .menu-container.is-open .social-media-links .social-media-link:not(:last-child) {
+       
+        margin-right:calc(100% * 0.1);
+      }
+  }
